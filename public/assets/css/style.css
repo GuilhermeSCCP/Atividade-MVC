@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --fundo: #f4f4f4;
+    --caixa: white;
+    --texto: #333;
+    --sucesso: green;
+    --erro: red;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: var(--fundo);
+    margin: 40px;
+}
+
+h1 {
+    color: var(texto);
+    margin-bottom: 20px;
+}
+.usuario {
+    background-color: var(--caixa);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.sucesso{
+    color: var(--sucesso);
+}
+
+.erro{
+    color: var(--erro);
+}
+
+.usuario p, .usuario h2{
+    margin-bottom: 10px;
+}
