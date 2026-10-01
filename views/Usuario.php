@@ -81,8 +81,8 @@
             </p>
 
             <p>
-                <strong>Matérias:</strong>
-                <?= implode(", ", $resultadoAluno->materias_lecionadas) ?>
+                <strong>XP:</strong>
+                <?= $resultadoAluno->xp_total ?>
             </p>
 
             <p>

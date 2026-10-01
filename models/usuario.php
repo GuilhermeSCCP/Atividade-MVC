@@ -9,7 +9,7 @@
         private string $senha_hash;
 
         public function definirSenha(string $senha): void{
-            $this->senha_hash = password_verify($senha, PASSWORD_BCRYPT);
+            $this->senha_hash = password_hash($senha, PASSWORD_BCRYPT);
         }
 
         public function verificarSenha(string $senha_digitada): bool {
